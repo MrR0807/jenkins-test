@@ -1,0 +1,9 @@
+spring:
+  main:
+    banner-mode: off
+
+application:
+  version: v1
+  base: /api/${application.version}
+  endpoints:
+    greetings: ${application.base}/hello
